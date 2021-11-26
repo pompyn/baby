@@ -4,4 +4,4 @@ question = choice(questions)
 answer = input(question).lower().strip()
 while answer != 'just because':
     answer = input("Why ").strip().lower()
-
+print('Oh, okay')
